@@ -7,38 +7,90 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css" />
     <style>
-      ul {
-        list-style-type: none;
+      html {
         margin: 0;
         padding: 0;
-        overflow: hidden;
-        background-color: rgb(34, 103, 94);
+        width: 100%;
       }
-
-      li {
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: url(green.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+      }
+      .logo {
         float: left;
+        color: #08596a;
+        margin-left: 46px;
+        padding: 0px 38px;
+        font-family: "Raleway", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
       }
-
+      .logo a {
+        text-decoration: none;
+        color: #08596a;
+      }
+      .nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        height: 80px;
+        width: 100%;
+      }
+      .nav ul {
+        list-style: none;
+        cursor: pointer;
+        float: right;
+        margin-right: 140px;
+      }
+      .nav ul li {
+        list-style: none;
+        display: inline-block;
+        color: #08596a;
+        font-family: "Raleway", sans-serif;
+        padding: 15px 15px;
+        font-weight: 400;
+      }
+      .nav ul li:hover {
+        border-bottom: 3px solid #08596a;
+        transition: all 0.3s ease;
+      }
       li a {
         display: block;
-        color: white;
+        color: #08596a;
         text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
 
-      li a:hover {
-        background-color: rgb(0, 255, 179);
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="portopolio.html">portopolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="logo">
+          <a href="#">
+            <p>Khatamu.id</p>
+          </a>
+        </div>
+        <ul>
+          <li><a href="index.html"></a> Home</li>
+          <li><a href="portopolio.html"> About</a></li>
+          <li><a href="galery.html"></a> Galery</li>
+          <li><a href="contak.html"></a> Contact Us</li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
     <h1>MAGANG DAN STUDI INDEPENDEN BERSERTIFIKAT</h1>
     <h2 id="mitra">SOCIAL ECONOMIC ACCELERATIR LAB (SEAL)</h2>
 
