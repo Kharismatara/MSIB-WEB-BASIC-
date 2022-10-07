@@ -56,56 +56,32 @@ body {
 li a {
   display: block;
   color: #08596a;
+  text-align: center;
+
   text-decoration: none;
 }
-.logo h1 {
-  color: #fff;
-  font-family: "Fredericka the Great", cursive;
+.banner img {
+  margin-top: 5%;
+  width: 45%;
+  height: auto;
+  padding-left: 8%;
 }
-.header {
-  text-align: center;
-  position: absolute;
-  top: 40%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-}
-.header h1 {
+.banner h1 {
   color: #08596a;
   text-align: left;
   font-family: "Noto Serif JP", sans-serif;
   font-size: 50px;
-}
-.header span {
-  color: #08596a;
-}
-.khata {
   position: absolute;
   transform: translate(-50%, -50%);
   text-align: center;
-  top: 55%;
+  top: 35%;
   left: 73%;
 }
-.khata p {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  text-align: left;
-  color: #08596a;
-}
-.down {
+.banner p {
   position: absolute;
-  top: 50%;
-  left: 40%;
   transform: translate(-50%, -50%);
-}
-.down img {
-  width: 70%;
-  height: auto;
-}
-.text {
-  width: 205px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-  padding-left: 10px;
+  text-align: left;
+  top: 55%;
+  left: 73%;
+  color: #08596a;
 }
